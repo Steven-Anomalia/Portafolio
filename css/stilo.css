@@ -76,18 +76,44 @@ header{
 .ima-1{
 	width: 40%;
 	float: left;
+	text-align: center;
 }
 .ima-1 img{
 	width: 95%;
 	border: 1px solid black;
+	box-shadow: 2px 2px;
+	transition-duration: 2s;
+	transition-property: duration border;
+	
+}
+.ima-1 img:hover{
+	transition-duration: 2s;
+	transform: rotate(10deg);
+	border: 2px #82c3a6;
+	
+}
+.ima-1 h2 a{
+	color: black;
 }
 .ima-2{
 	width: 40%;
 	float: left;
+	text-align: center;
 }
 .ima-2 img{
 	width: 95%;
 	border: 1px solid black;
+	box-shadow: 2px 2px;
+	transform: translate();
+	transition-duration: 2s;
+	
+}
+.ima-2 img:hover{
+	transform: translate(20px,-5px);
+	transition-duration: 2s;
+}
+.ima-2 a{
+	color: black;
 }
 /*responsive*-----------------
 ----------------------------------*/
