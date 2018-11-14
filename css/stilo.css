@@ -53,7 +53,16 @@ header{
 	width: 100%;
 	background-color:#82c3a6;
 	height: 600px;
-	margin: 0%;
+	margin: 0px;
+}
+.imagen-central{
+	width: 50%;
+	background-color: #82c3a6;
+	margin: auto;	
+	
+}
+.imagen-central img{
+	width: 100%;
 }
 
 /*responsive*-----------------
