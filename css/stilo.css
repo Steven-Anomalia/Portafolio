@@ -52,19 +52,43 @@ header{
 #contenedor{
 	width: 100%;
 	background-color:#82c3a6;
-	height: 600px;
 	margin: 0px;
 }
 .imagen-central{
 	width: 50%;
-	background-color: #82c3a6;
-	margin: auto;	
-	
+	margin: auto;
 }
 .imagen-central img{
 	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
+.imagen-secundaria{
+	width: 100%;
+    background-color: #d5c75f;
+	justify-content: center;
+	display: flex;
+	margin: auto;
+	float: left;
+	padding-top: 20px;
+}
+.ima-1{
+	width: 40%;
+	float: left;
+}
+.ima-1 img{
+	width: 95%;
+	border: 1px solid black;
+}
+.ima-2{
+	width: 40%;
+	float: left;
+}
+.ima-2 img{
+	width: 95%;
+	border: 1px solid black;
+}
 /*responsive*-----------------
 ----------------------------------*/
 @media (max-width: 600px){
