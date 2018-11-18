@@ -197,11 +197,23 @@ padding-left: 5%;
 		float:left;
 		text-align: center;
 	}
+	.imagen-central{
+		width: 80%;
+	}
+	.imagen-secundaria{
+		flex-flow: column;
+	}
+	.ima-1{
+	width: 100%;
+}
+	.ima-2{
+	width: 100%;
+
 }
 
 @media (min-width: 900px) {
 	.titulo{
-	width:70%;
+	    width:70%;
 }
 	.menu{
 		width: 30%;
