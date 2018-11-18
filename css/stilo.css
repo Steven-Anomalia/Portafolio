@@ -54,15 +54,23 @@ header{
 	width: 100%;
 	background-color:#82c3a6;
 	margin:auto;
+	height:auto;
+	display:block;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: left;
+	
 }
 .imagen-central{
 	width: 50%;
 	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 .imagen-central img{
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	border: 2px solid #02010a;
 }
 
 .imagen-secundaria{
@@ -238,7 +246,6 @@ padding-left: 5%;
 		padding-top: 40px;
 	}
 }
-
 @media (min-width: 900px) {
 	.titulo{
 	    width:70%;
@@ -246,4 +253,6 @@ padding-left: 5%;
 	.menu{
 		width: 30%;
 	}
+	
 }
+

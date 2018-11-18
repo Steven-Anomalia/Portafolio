@@ -72,6 +72,7 @@ header{
 .foto-1 img{
 	-webkit-filter:blur(10px);
 	filter: blur(10px);
+	border: 2px solid #02010a;
 }
 .foto-2{
 	width: 33%;
@@ -82,6 +83,7 @@ header{
 .foto-2 img{
 	-webkit-filter:grayscale(100%);
 	filter: grayscale(100%);
+	border: 2px solid #02010a;
 }
 .foto-3{
 	width: 33%;
@@ -89,8 +91,9 @@ header{
 	float: left;
 	text-align: center;
 }
-.foto-3{
+.foto-3 img{
 	-webkit-filter:sepia(90%);
+	border: 2px solid #02010a;
 }
 .foto-4{
 	width: 33%;
@@ -102,6 +105,7 @@ header{
 .foto-4 img{
 	-webkit-filter:grayscale(100%);
 	filter: grayscale(100%);
+	border: 2px solid #02010a;
 }
 .foto-5{
 	width: 33%;
@@ -109,6 +113,9 @@ header{
 	float: left;
 	text-align: center;
     padding-top: 20px;
+}
+.foto-5 img{
+	border: 2px solid #02010a;
 }
 .foto-6{
 	width: 33%;
@@ -120,6 +127,7 @@ header{
 .foto-6 img{
 	-webkit-filter:grayscale(100%);
 	filter: grayscale(100%);
+	border: 2px solid #02010a;
 }
 #contenido img{
 	width: 70%;
