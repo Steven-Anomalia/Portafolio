@@ -5,6 +5,84 @@
 body{
 	background-color: black;
 	margin: auto;
+	padding: 1%;
 	width: 85%;
 	font-family: 'Dancing Script', cursive;
+}
+header{
+	background-color: #5b7989;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 100%;
+	float: left;
+	position:static;
+}
+.titulo{
+	width: 65%;
+	float: left;
+	height: 100%;
+	text-align:left;
+	
+}
+.titulo h1{
+	color: white;
+	padding-left: 6%;
+	text-shadow: 1px 2px #02010a;
+}
+.menu{
+	width: 35%;
+	height: 100%;
+	float: left;
+	margin: auto;
+}
+
+#menu-1 ul{
+	color: white;
+	word-spacing: 12px;
+	font-size: 25px;
+}
+	
+#menu-1 li{
+	display: inline;
+	word-spacing: 4px;
+}
+#menu-1 a{
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 600px){
+	header{
+		margin: auto;
+	}
+	.titulo{
+		width: 100%;
+		display: flex;
+		text-align: center;
+		
+	}
+	.titulo h1{
+		padding-left: 0%;
+		margin: auto;
+	}
+	.menu{
+		width: 100%;
+		background-color: red;
+		float: none;
+		text-align: center;
+	}
+	#menu-1{
+		width: 100%;
+		float:left;
+		text-align: center;
+	}
+}
+
+@media (min-width: 900px) {
+	.titulo{
+	    width:70%;
+}
+	.menu{
+		width: 30%;
+	}
 }
