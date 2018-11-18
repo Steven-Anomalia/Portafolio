@@ -51,6 +51,63 @@ header{
 	color: white;
 	text-decoration: none;
 }
+#contenido{
+	width: 100%;
+	background-color: #d5c75f;
+	height:auto;
+	display:block;
+	justify-content: center;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: left;
+	
+}
+.foto-1{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin: auto;
+}
+.foto-2{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+.foto-3{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+
+}
+.foto-4{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+    padding-top: 20px;
+}
+.foto-5{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+    padding-top: 20px;
+}
+.foto-6{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+    padding-top: 20px;
+}
+#contenido img{
+	width: 70%;
+}
 
 @media (max-width: 600px){
 	header{
