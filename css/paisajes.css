@@ -204,6 +204,32 @@ padding-left: 5%;
 		float:left;
 		text-align: center;
 	}
+	#contenido{
+		flex-flow: column;
+	}
+	.foto-1{
+		width: 100%;
+	}
+	.foto-2{
+		width: 100%;
+		padding-top: 40px;
+	}
+	.foto-3{
+		width: 100%;
+		padding-top: 40px;
+	}
+	.foto-4{
+		width: 100%;
+		padding-top: 40px;
+	}
+	.foto-5{
+		width: 100%;
+		padding-top: 40px;
+	}
+	.foto-6{
+		width: 100%;
+		padding-top: 40px;
+	}
 	footer{
 		flex-flow: column;
 		margin: auto;
