@@ -253,6 +253,13 @@ padding-left: 5%;
 	.menu{
 		width: 30%;
 	}
+	.caja-3{
+	   width: 40%;
+	}
+	.caja-4{
+		width: 30%;
+		padding-right: 10px;
 	
+	}
 }
 
